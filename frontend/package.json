@@ -1,0 +1,12 @@
+{
+	"name": "restaurant-frontend",
+	"version": "1.0.0",
+    "homepage": "https://7helene77.github.io/restaurant-system",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
+	}
+}
+
